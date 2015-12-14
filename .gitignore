@@ -1,3 +1,3 @@
 credentials.txt
-Data/*
-!Data/*.example
+data/*
+!data/*.example
