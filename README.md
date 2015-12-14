@@ -24,6 +24,10 @@ Assuming you have Docker and Docker Compose installed already, the following ste
  2. Fire up 7 Days to Die and connect to your docker ip on port 26900.
  3. Run `./server.sh` for more info.
 
+### Versioning
+
+Note that the version numbers (and therefore releases) indicate which version of `zobees/7daystodie` the Dockerfile references.
+
 ## Changelog
 
  * **0.0.2** Using updated zobees/steamcmd-ubuntu image
