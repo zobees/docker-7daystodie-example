@@ -20,7 +20,7 @@ Assuming you have Docker and Docker Compose installed already, the following ste
 
 ### Running
 
- 1. Run `./server.sh start` on the host.
+ 1. Run `./server.sh start` on the host (prefix with `sudo` on Linux).
  2. Fire up 7 Days to Die and connect to your docker ip on port 26900.
  3. Run `./server.sh` for more info.
 
