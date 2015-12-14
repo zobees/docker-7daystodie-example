@@ -28,7 +28,7 @@ case $1 in
     fi
 
     echo "Starting container.." >&2
-    docker run -d -i -t --name $NAME -p $PORTS -p $PORTS/udp -v $DATA:/data $NAME
+    docker run -d -i -t --restart=always --name $NAME -p $PORTS -p $PORTS/udp -v $DATA:/data $NAME
     ;;
   stop)
     echo "Stopping container.." >&2
