@@ -16,9 +16,14 @@ Assuming you have Docker and Docker Compose installed already, the following ste
 
  1. Copy `data/config.xml.example` to `data/config.xml` and edit it to your liking.
  2. Copy `data/admins.xml.example` to `data/admins.xml` and edit it, adding your own Steam64 ID.
- 3. If you're on Linux, you'll need to run `chown -R 1000:1000 ./data` (this will be fixed in the next release of [zobees/docker-7daystodie](https://hub.docker.com/r/zobees/7daystodie/), and is not applicable to OS X).
+ 3. If you're on Linux, you'll need to run `chown -R daemon:daemon ./data` on the host.
 
 ### Running
 
  1. Run `docker-compose up`, or manually using `docker run`.
  2. Fire up 7 Days to Die and connect to your docker ip on port 26900.
+
+## Changelog
+
+ * **0.0.2** Using updated zobees/steamcmd-ubuntu image
+ * **0.0.1** Initial release
