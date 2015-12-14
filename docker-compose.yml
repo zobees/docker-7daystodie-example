@@ -1,5 +1,5 @@
 main:
-  container_name: 7daystodie-test
+  container_name: 7daystodie-example
   build: .
   ports:
     - "26900:26900"
