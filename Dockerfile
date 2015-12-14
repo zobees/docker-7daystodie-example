@@ -1,2 +1,2 @@
-FROM zobees/7daystodie:0.0.2
+FROM zobees/7daystodie:0.0.3
 MAINTAINER cliffrowley@gmail.com
