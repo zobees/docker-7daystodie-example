@@ -41,6 +41,6 @@ case $1 in
     docker logs -f $NAME
     ;;
   *)
-    echo "Usage: $0 <start|stop>" >&2
+    echo "Usage: $0 <build|rebuild|start|stop|status|logs>" >&2
     ;;
 esac
