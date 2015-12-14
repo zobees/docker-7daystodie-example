@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ServerSettings>
+  <property name="AirDropFrequency" value="72"/>
+  <property name="BlockDurabilityModifier" value="100"/>
+  <property name="BuildCreate" value="false"/>
+  <property name="ControlPanelEnabled" value="false"/>
+  <property name="ControlPanelPassword" value=""/>
+  <property name="ControlPanelPort" value="8080"/>
+  <property name="CraftTimer" value="1"/>
+  <property name="DayLightLength" value="18"/>
+  <property name="DayNightLength" value="120"/>
+  <property name="DropOnDeath" value="0"/>
+  <property name="DropOnQuit" value="0"/>
+  <property name="EACEnabled" value="true"/>
+  <property name="EnemyDifficulty" value="0"/>
+  <property name="EnemySenseMemory" value="60"/>
+  <property name="EnemySpawnMode" value="5"/>
+  <property name="FriendlyFire" value="false"/>
+  <property name="GameDifficulty" value="2"/>
+  <property name="GameMode" value="GameModeSurvivalMP"/>
+  <property name="GameName" value="AWESOMESAUCE"/>
+  <property name="GameWorld" value="Navezgane"/>
+  <property name="LandClaimDeadZone" value="30"/>
+  <property name="LandClaimDecayMode" value="0"/>
+  <property name="LandClaimExpiryTime" value="7"/>
+  <property name="LandClaimOfflineDurabilityModifier" value="4"/>
+  <property name="LandClaimOnlineDurabilityModifier" value="4"/>
+  <property name="LandClaimSize" value="14"/>
+  <property name="LootAbundance" value="100"/>
+  <property name="LootRespawnDays" value="7"/>
+  <property name="LootTimer" value="1"/>
+  <property name="MaxSpawnedZombies" value="120"/>
+  <property name="ServerDescription" value="7 Days to Docker"/>
+  <property name="ServerIsPublic" value="true"/>
+  <property name="ServerMaxPlayerCount" value="32"/>
+  <property name="ServerName" value="7 Days to Docker"/>
+  <property name="ServerPassword" value=""/>
+  <property name="ServerPort" value="26900"/>
+  <property name="ServerWebsiteURL" value=""/>
+  <property name="TelnetPassword" value=""/>
+  <property name="TelnetPort" value="8085"/>
+  <property name="ZombiesRun" value="0"/>
+  <property name="TelnetEnabled" value="true"/>
+  <property name="AdminFileName" value="admins.xml"/>
+
+  <!-- This is important! -->
+  <property name="SaveGameFolder" value="/data"/>
+</ServerSettings>

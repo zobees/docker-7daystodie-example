@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adminTools>
+    <admins>
+        <!-- <admin steamID="YOUR_STEAM64_ID" permission_level="0" /> -->
+    </admins>
+
+    <permissions>
+        <permission cmd="cm" permission_level="0" />
+        <permission cmd="kick" permission_level="1" />
+        <permission cmd="ban" permission_level="1" />
+        <permission cmd="dm" permission_level="0" />
+        <permission cmd="mem" permission_level="0" />
+        <permission cmd="sounddebug" permission_level="0" />
+        <permission cmd="admin" permission_level="0" />
+        <permission cmd="mod" permission_level="0" />
+        <permission cmd="cp" permission_level="0" />
+        <permission cmd="whitelist" permission_level="1" />
+        <permission cmd="say" permission_level="1" />
+        <permission cmd="lt" permission_level="0" />
+        <permission cmd="es" permission_level="0" />
+        <permission cmd="go" permission_level="0" />
+        <permission cmd="sg" permission_level="0" />
+        <permission cmd="shutdown" permission_level="1" />
+        <permission cmd="se" permission_level="0" />
+        <permission cmd="aiddebug" permission_level="0" />
+        <permission cmd="spawnwanderinghorde" permission_level="0" />
+        <permission cmd="le" permission_level="1" />
+        <permission cmd="lp" permission_level="1" />
+        <permission cmd="cc" permission_level="0" />
+        <permission cmd="sc" permission_level="0" />
+        <permission cmd="saveworld" permission_level="0" />
+        <permission cmd="spawnairdrop" permission_level="0" />
+        <permission cmd="gt" permission_level="1000" />
+        <permission cmd="gg" permission_level="1000" />
+        <permission cmd="lpe" permission_level="0" />
+        <permission cmd="sayplayer" permission_level="0" />
+        <permission cmd="settimereal" permission_level="0" />
+    </permissions>
+
+    <whitelist>
+        <!-- <whitelisted steamID="YOUR_STEAM64_ID" /> -->
+    </whitelist>
+
+    <blacklist>
+        <!-- <blacklisted steamID="" unbandate="" /> -->
+    </blacklist>
+</adminTools>

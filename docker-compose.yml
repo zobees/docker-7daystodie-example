@@ -1,0 +1,8 @@
+main:
+  container_name: 7daystodie-test
+  build: .
+  ports:
+    - "26900:26900"
+    - "26900:26900/udp"
+  volumes:
+    - ./data:/data
